@@ -54,7 +54,7 @@ function Form(){
                                     <div className="valid-feedback">Titulo OK</div>
                                     <div className="invalid-feedback">Informe o titulo</div>
                                 </div>
-                                <div className="form-floating">
+                                <div className="mb-3">
                                     <label htmlFor="txtSinopse" className="form-label">Sinopse</label>
                                     <textarea className="form-control" placeholder="Sinopse aqui" id="txtSinopse" name="sinopse" value={objeto.sinopse} onChange={handleChange}></textarea>
                                 </div>
